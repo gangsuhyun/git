@@ -18,7 +18,7 @@ git remote remove 지울거 : git 연결 정보 삭제
 
 8. git add asdf.py  (git add . 하면 그파일에있는거다올리는거임)
 9. git commit -m 메시지  ' 메시지적으면댐 '
-10. git push origin GUGU (GUGU말고 옆에있는 사용자를적어줘야함 맨오른쪽)
+10. git push origin GUGU (맨오른쪽)
 
 11. git rm asdf.py
 12. git commit -m Delete 
