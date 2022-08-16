@@ -1,3 +1,9 @@
+import cv2
+import numpy as np
+import RPi.GPIO as GPIO
+import serial                                                            
+ser = serial.Serial('/dev/ttyS0',115200)
+
 def main():
     camera = cv2.VideoCapture(0)
     #camera.set(3,160) 
